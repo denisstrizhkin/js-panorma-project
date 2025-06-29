@@ -1,0 +1,22 @@
+{
+  "name": "panorama",
+  "type": "module",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "npx rollup -c rollup.config.mjs"
+  },
+  "dependencies": {
+    "@photo-sphere-viewer/core": "^5.13.3",
+    "redom": "^4.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.27.7",
+    "@babel/preset-env": "^7.27.2",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^28.0.6",
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-plugin-transform-redom-jsx": "^3.0.6",
+    "rollup": "^4.44.1"
+  }
+}
